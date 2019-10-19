@@ -1,0 +1,13 @@
+{
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "scripts": {
+    "run": [
+      "@php -f app/cli.php"
+    ]
+  }
+}
