@@ -1,4 +1,5 @@
 <?php
+
 namespace App;
 
 use App\Commands\AdapterCommand;
@@ -9,6 +10,7 @@ class Kernel
     protected static $patterns = [
         'adapter' => AdapterCommand::class
     ];
+
     public static function run($cliArgs)
     {
         $pattern = $cliArgs[1] ?? null;
